@@ -24,7 +24,7 @@ Usage (synthetic mode - default):
 $ ./auto-debugify-tests.py -process-tests=TEST_DIR -use-lit=LIT_PATH -report-file=report.json
 ```
 
-Usage (origina-di mode):
+Usage (original-di mode):
 ```
 $ ./auto-debugify-tests.py -mode=original -process-tests=TEST_DIR -use-lit=LIT_PATH -report-file=report.json
 ```
