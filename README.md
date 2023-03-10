@@ -17,6 +17,7 @@ $  llvm-original-di-preserve.py -compress report.json report.html
 
 New script `auto-debugify-tests.py` is created to detect debug-info losses in LLVM IR optimizations performed on tests from LLVM infrastructure.
 Detection of debug-info losses is performed using `Debugify` passes in two modes - Sythethic (-debugify) and OriginalDebugInfo mode (verify-each-debuginfo-preserve).
+Results (detected losses report) could be converted to HTML using `llvm-original-di-preservation.py`.
 
 Usage (synthetic mode - default):
 ```
